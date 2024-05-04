@@ -105,7 +105,10 @@
     right: 8%;
     bottom: 15%;
     z-index: 3;
+
   }
+
+
   @media all and (max-width: 768px) {
     .intro__content {
       right: auto;
@@ -117,6 +120,12 @@
     overflow: hidden;
     letter-spacing: -2.3vw;
     padding-right: 2.3vw;
+    color: #ffffff;
+    background-image: url(/assets/images/01.jpg);
+
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   @media all and (max-width: 768px) {
     .intro__title {
@@ -163,6 +172,7 @@
   .intro__txt {
     max-width: 35vw;
     margin-left: 25vw;
+    font-size: 2vw;
   }
   @media all and (max-width: 768px) {
     .intro__txt {
