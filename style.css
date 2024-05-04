@@ -173,11 +173,18 @@
     max-width: 35vw;
     margin-left: 25vw;
     font-size: 2vw;
+    font-family: "Playfair Display", serif;
   }
   @media all and (max-width: 768px) {
     .intro__txt {
       max-width: 80vw;
       margin-left: 5vw;
+    }
+  }
+  @media all and (max-width: 600px){
+    .intro__txt{
+      max-width: 60vw;
+      font-size: 4vw;
     }
   }
   
@@ -337,12 +344,14 @@
     max-width: 22vw;
     order: 2;
     margin-left: 32px;
+    font-family: "Playfair Display", serif;
   }
   @media all and (max-width: 768px) {
     .col__content-txt {
       order: 1;
       max-width: 40vw;
       margin: 0 0 10vw 10vw;
+      font-family: "Playfair Display", serif;
     }
   }
   
@@ -353,6 +362,7 @@
     justify-content: flex-end;
     width: 75px;
     height: 53px;
+    font-family: "Playfair Display", serif;
   }
   .slide-link > * {
     pointer-events: none;
@@ -511,4 +521,8 @@
     left: 50%;
     bottom: 24px;
     transform: translateX(-50%);
+  }
+
+  .con {
+    font-family: "Playfair Display", serif;
   }
